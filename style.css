@@ -1,0 +1,77 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+#graph {
+    color: hsl(216, 98%, 49%);
+    font-size: 100px;
+    font-family: Verdana;
+}
+
+#para {
+    font-size: 30px;
+    font-family: Verdana;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 200px;
+    margin-top: 250px;
+}
+
+#main {
+    margin-right: 50px;
+}
+
+#farm {
+    background-color: white;
+    padding: 14px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    width: 275px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+#farm input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 20px;
+    width: 250px;
+}
+
+#buttn {
+    background-color: hsla(204, 100%, 50%, 0.918);
+    color: white;
+    border-radius: 4px;
+    padding: 10px;
+    width: 272px;
+    border: none;
+}
+
+#farm a {
+    text-decoration: none;
+    color: hsla(204, 100%, 50%, 0.918);
+}
+
+#btn2 {
+    background-color: rgb(8, 218, 8);
+    color: white;
+    border-radius: 4px;
+    padding: 10px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    display: inline-block;
+}
+#forgot{
+    font-family: Verdana;
+}
+.buttun:hover{
+    cursor: pointer;
+}
+
